@@ -1,24 +1,21 @@
-# Geração de jogos Pokemon
+# Pokemon Games Generation
 
-## Instalar pacotes do projeto
+## Install project packages
 ```
 yarn
 ```
 
-### Inicializar projeto localmente
+### Initialize local project
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Executar testes unitários
+### Run unit tests
 ```
 yarn test
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run specific unit test
+```
+yarn test [example.spec.js]
+```

@@ -7,4 +7,3 @@ export function getPokemonGenerations() {
 export function getGenerationDatails(url) {
   return requestApi.get(url);
 }
-
