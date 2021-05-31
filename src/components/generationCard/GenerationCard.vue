@@ -15,6 +15,7 @@ import generationEigthImage from '@/assets/images/generations/g8.jpg';
 import Card from '../common/card/Card.vue';
 
 export default {
+  name: 'GenerationCard',
   components: {
     Card,
   },

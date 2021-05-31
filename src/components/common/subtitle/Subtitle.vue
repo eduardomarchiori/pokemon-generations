@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'Subtitle',
   props: {
     text: {
       type: String,

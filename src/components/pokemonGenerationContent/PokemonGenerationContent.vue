@@ -22,6 +22,7 @@ import Subitle from '../common/subtitle/Subtitle.vue';
 import Title from '../common/title/Title.vue';
 
 export default {
+  name: 'PokemonGenerationContent',
   components: {
     Button,
     Subitle,

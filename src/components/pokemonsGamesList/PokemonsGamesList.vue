@@ -12,6 +12,7 @@
 
 <script>
 export default {
+  name: 'PokemonsGamesList',
   props: {
     games: {
       type: Array,

@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Home from '@/views/Home.vue';
+import Home from './Home.vue';
 
 function createShallowMount(props) {
   const wrapper = shallowMount(Home, {
@@ -12,8 +12,8 @@ function createShallowMount(props) {
 describe('Home', () => {
   it('should be render title', () => {
     const wrapper = createShallowMount()
-    const title = wrapper.findComponent({ name: 'Title' })
+    const title = wrapper.indComponent({ name: 'Title' })
 
-    expect(title.exists()).toBe(true);
+    expect(title.isVisible()).toBe(true);
   });
 });

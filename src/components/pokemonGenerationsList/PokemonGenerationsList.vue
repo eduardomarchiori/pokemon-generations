@@ -11,6 +11,7 @@ import { pokemonService } from '@/libs/pokemon';
 import GenerationCard from '../generationCard/GenerationCard.vue';
 
 export default {
+  name: 'PokemonGenerationsList',
   components: {
     GenerationCard,
   },

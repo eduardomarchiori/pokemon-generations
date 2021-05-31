@@ -8,6 +8,7 @@
 import PokemonLogo from '@/components/pokemonLogo/PokemonLogo.vue';
 
 export default {
+  name: 'Nav',
   components: {
     PokemonLogo,
   },

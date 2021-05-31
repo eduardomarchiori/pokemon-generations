@@ -17,6 +17,7 @@ import generationSevenImage from '@/assets/images/generations/g7t.png';
 import generationEigthImage from '@/assets/images/generations/g8t.png';
 
 export default {
+  name: 'PokemonBackground',
   props: {
     generation: {
       type: String,

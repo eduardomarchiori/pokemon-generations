@@ -23,6 +23,7 @@
 import Button from '../button/Button.vue';
 
 export default {
+  name: 'Card',
   components: {
     Button,
   },
